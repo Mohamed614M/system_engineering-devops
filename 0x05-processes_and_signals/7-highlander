@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
 # Displays "To infinity and beyond" and handles SIGTERM with custom message
-trap "echo 'I am invincible!!!'" SIGTERM
-while true; do
-  echo "To infinity and beyond"
-  sleep 2
-done
+sylvain@ubuntu$ ./7-highlander
+To infinity and beyond
+To infinity and beyond
+I am invincible!!!
+To infinity and beyond
+I am invincible!!!
+To infinity and beyond
+To infinity and beyond
+To infinity and beyond
+I am invincible!!!
+To infinity and beyond
+^C
+sylvain@ubuntu$ 
